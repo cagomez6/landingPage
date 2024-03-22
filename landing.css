@@ -41,3 +41,175 @@ body {
     color: var(--textColorSecondary);
     text-decoration: none;
 }
+
+.hero {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--bgColorDark);
+    color: var(--textColorLogo);
+    display:flex;
+}
+
+.heroGroup {
+    flex: 1 1 0%;
+    margin-left: 50px;
+    margin-right: 15px;
+}
+
+.heroTitle {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: .5em;
+}
+
+.heroSecondary {    
+    font-size: 18px;
+    font-weight: var(--bgColorQuote);
+    margin-bottom: 1em;
+}
+
+.heroBtn {
+    background-color: var(--btnColorBlue);
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--bgColorQuote);
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.imgPlaceholder {
+    flex: 1 1 0%;
+    background-color: grey;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.infoSection {
+    padding-top: 50px;
+    color: var(--bgColorDark);
+    display: flex;
+    flex-direction: column;
+}
+
+.infoTitle {
+    margin: auto;
+    font-size: 36px;
+    color: var(--bgColorDark);
+    font-weight: bolder;
+    margin-bottom: .5em;
+}
+
+.infoCards {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.infoCard {
+    flex: 1 1 0%;
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardImage {
+    border: #3882F6;
+    border-style: ridge;
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.cardInfo {
+    width: 150px;
+}
+
+.quoteSection {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--textColorSecondary);
+}
+
+.quoteBubble {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quoteCite {
+    text-align: right;
+    font-weight: bold;
+}
+
+.callAction {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: var(--bgColorQuote);
+}
+
+.actionBubble {
+    background-color: var(--btnColorBlue);
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 25px;
+
+    padding-left: 100px;
+    padding-right: 100px;
+
+    border-radius: 15px;
+    display: flex;
+}
+
+.actionText {
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.actionHeader {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.actionBtnWrapper {
+    flex: 1 1 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actionButton {
+    color: var(--bgColorQuote);
+    text-align: center;
+    border: #E5E7EB;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer {
+    padding: 30px;
+    background-color: var(--bgColorDark);
+    color: var(--bgColorQuote);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
